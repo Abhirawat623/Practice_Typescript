@@ -4,7 +4,7 @@
 interface VehicleInterface{
     model:string;
     owner:string;
-    duraction:number
+    duration:number
     message():string
 }
 //class for above interface
