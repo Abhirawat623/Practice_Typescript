@@ -5,14 +5,35 @@
 //         location: "Delhi NCR"
 //     }
 // ] 
-//handling ojects in ts
+
+//1-- Adding data using TS
+
+// function intro(user:{
+//     name: string;
+//     age:number;
+//     location:string
+// }): string{
+
+// return `The user is ${user.name} who is ${user.age} yrs old lives in ${user.location}`
+// }
+
+// const message = intro( {
+//     name:"abhishek",
+//     age:24,
+//     location:"Delhi NCR"
+// })
+// console.log(message);
 
 
-function intro(user:{
-    name: string;
+//2-- Interfaces in TS
+interface User //interface should be in Caps letter
+{
+    name :string;
     age:number;
     location:string
-}): string{
+}
+
+function intro(user:User): string{
 
 return `The user is ${user.name} who is ${user.age} yrs old lives in ${user.location}`
 }
