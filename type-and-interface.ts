@@ -1,5 +1,5 @@
 interface Circle{
-    radius: number
+    radius?: number //? provides option for the availibilty to the variable type
 };
 
 interface Sqaure{
